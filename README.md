@@ -12,23 +12,8 @@ Produces a final annotated video output
 
 Built for speed and clarity
 
----Project Structure---
 
-PLAYER_REID_PROJECT/
-├── data/
-│   └── 15sec_input_720p.mp4
-├── models/
-│   └── best.pt
-├── outputs/
-│   └── reid_output.mp4
-├── src/
-│   ├── main.py
-│   ├── tracker.py
-│   ├── detector.py
-│   └── deepsort_tracker.py
-├── README.md
-├── requirements.txt
-
+--------------------------------------------------------------------------------
 
  Setup Instructions
 
@@ -56,6 +41,8 @@ pip install lap
 python src/main.py
 
 
+-----------------------------------------------------------------------------------------------------------
+
 --- Dependencies ---
 Make sure Python 3.10+ is installed.
 
@@ -77,6 +64,9 @@ Install them via:
 
 
 pip install -r requirements.txt
+
+
+--------------------------------------------------------------------------------------------------------------
 
 
 --- How It Works ---
